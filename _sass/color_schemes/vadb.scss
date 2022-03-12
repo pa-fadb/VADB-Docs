@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=swap');
+
+$body-font-family: Inconsolata, "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$body-background-color: #EEE;
+$sidebar-color: $white;
+$search-background-color: #EEE;
+$table-background-color: $white;
+$code-background-color: $white;
+
+$link-color: #EE6768;
+$base-button-color: #EE6768;
+$btn-primary-color: $white;
+
+$border: none;
+$border-color: transparent;
+$border-radius: 0;
+
+.label {
+    border-radius: 0 !important;
+}
+
+.btn {
+    color: white !important;
+}
+
+.btn-outline {
+    color: #EE6768 !important;
+    border: 1px solid #EE6768 !important;
+}
+
+.site-title {
+    font-size: 20px !important;
+    color: #333 !important;
+    font-weight: 700 !important;
+    font-stretch: expanded !important;
+}
+
+.nav-list-link, .breadcrumb-nav-list-item {
+    font-stretch: expanded !important;
+}
+
+.breadcrumb-nav-list-item:last-child {
+    font-weight: 700 !important;
+}
+
+.table-wrapper {
+    background-color: white !important;
+}
+
+td:not(:first-child), th:not(:first-child) {
+    border-left: 2px solid #EEE !important;
+}
