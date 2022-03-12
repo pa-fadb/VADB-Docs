@@ -6,6 +6,7 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
 
+url: https://docs.fadb.live
 # just-the-docs Configuration
 color_scheme: vadb
 
