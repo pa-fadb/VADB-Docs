@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+{{ absolute_url }}
+
+{{ url }}
+
+{{ baseurl }}
