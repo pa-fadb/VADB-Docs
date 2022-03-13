@@ -6,23 +6,24 @@ permalink: /about/
 
 // TODO
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# VADB
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+[VADB](https://fadb.live/) aims to be a resource to level creators to see the [Artist](/definitions/artist/)'s [availability](#), whether that be available or otherwise,
+there will be no other bloat to the website as providing this information is the first and foremost focus, as such there's no such thing as "Accounts".
 
+## How artists are managed
 
-[jekyll-organization]: https://github.com/jekyll
+[Artists](/definitions/artist/) are carefully reviewed and managed by [Admins](#), they have the ability to change the [status](#), [availability](#), avatar, banner, description, etc.
 
-{{ absolute_url }}
+![Admin page](/assets/images/about.admin_page.png)
 
-{{ url }}
-
-{{ baseurl }}
-
-why won't this fucking work
+# Documentation
