@@ -22,7 +22,7 @@ there will be no other bloat to the website as providing this information is the
 
 ## How artists are managed
 
-[Artists](/definitions/artist#artist) are carefully reviewed and managed by [Admins](#), they have the ability to change the [status](/definitions/artist#status), [availability](/definitions/artist#availability), avatar, banner, description, etc.
+[Artists](/definitions/artist#artist) are carefully reviewed and managed by [Admins](/definitions/admins#admins), they have the ability to change the [status](/definitions/artist#status), [availability](/definitions/artist#availability), avatar, banner, description, etc.
 
 ![Admin page](/assets/images/about.admin_page.png)
 

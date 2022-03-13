@@ -22,7 +22,7 @@ Object
 In [VADB](https://fadb.live/), an Artist is commonly described as a [music producer](https://en.wikipedia.org/wiki/Record_producer).
 [VADB](https://fadb.live/) stores [information](#properties) about these artists and also displays information on what rights level creators have in using their music.
 
-Artists also has [usage rights](#) assigned to them by [Admins](#). These rights are used to describe what level creators can use with their music collections.
+Artists also has [usage rights](#usage-rights) assigned to them by [Admins](/definitions/admins#admins). These rights are used to describe what level creators can use with their music collections.
 
 ## Properties
 
@@ -34,9 +34,9 @@ Artists also has [usage rights](#) assigned to them by [Admins](#). These rights
 | description  | String                        | The description of the artist, generally describes a short history behind the artist.                                   |
 | tracks       | Number                        | How many tracks are available for use.                                                                                  |
 | genre        | String                        | What genre the artist uses the most.                                                                                    |
-| status       | [Status](#status)             | Determines at what state the artist is in. Only viewable for [Admins](#).                                               |
+| status       | [Status](#status)             | Determines at what state the artist is in. Only viewable for [Admins](/definitions/admins#admins).                      |
 | availability | [Availability](#availability) | How the songs should be used.                                                                                           |
-| notes        | String                        | Any notes for the artist. Only viewable for [Admins](#).                                                                |
+| notes        | String                        | Any notes for the artist. Only viewable for [Admins](/definitions/admins#admins).                                       |
 | usageRights  | [Usage Rights](#usage-rights) | A list of rights a level creator has to follow.                                                                         |
 | details      | [Details](#details)           | Any other details about the artist.                                                                                     |
 
@@ -45,7 +45,7 @@ Artists also has [usage rights](#) assigned to them by [Admins](#). These rights
 Enum
 {: .label .label-blue .mt-2 }
 
-The given status of this artist. Only viewable and managed by [Admins](#). This is used to describe what response the artist gave.
+The given status of this artist. Only viewable and managed by [Admins](/definitions/admins#admins). This is used to describe what response the artist gave.
 
 | Type    | Name       | Description                                      |
 |:--------|:-----------|:-------------------------------------------------|
